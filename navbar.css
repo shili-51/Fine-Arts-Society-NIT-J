@@ -1,0 +1,86 @@
+/* for navbar */
+
+body{
+  overflow-x: hidden;
+}
+a.nav-link.lol{
+    padding: 4px 16px !important;
+    font-size: 25px; 
+    font-weight: bold;
+    margin: 0px 15px;
+}
+
+nav{
+    color: #707070;
+    position:sticky !important;
+    background-color:rgba(233,233,233,0.9);
+    z-index:5;
+    top: 0px;
+}
+
+a.nav-link.lol:hover{
+
+    background-color: #FAA31D;
+    border-radius: 60px;
+    color: white !important;
+}
+
+*{
+    font-family: 'Gabriela', serif;
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    width: 100vw;
+    background-color:#fbfbfb !important;
+   
+}
+.logo{
+    margin-left: 20px;
+    background-image: url(image/fas-logo-png_smal.png);
+    height: 65px;
+    width: 65px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home{
+    background-color: #FAA31D !important;
+    border-radius: 60px;;
+    color: black !important;
+}
+
+ /*for team dropdown*/
+ .drop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+  
+  .drop-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none !important;
+    display: block;
+  }
+  
+  .drop-content a:hover {background-color:#FAA31D;
+    color: white;
+}
+  
+  .drop:hover .drop-content {
+    display: block;
+
+  }
+#navb{
+    padding:0;
+}

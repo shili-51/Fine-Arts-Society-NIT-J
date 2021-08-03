@@ -1,0 +1,54 @@
+
+.main{
+  margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+.mainImg{
+    background-image: url("image/FAS5@2x.png");
+    height:65vh;
+    width: 65vw;
+    background-position: center;
+    background-size: contain;
+    padding: 0px !important;
+    background-repeat: no-repeat;
+  
+}
+
+.text{
+    font-size: 40px;
+   font-weight: bold;
+    color: #FDB419;
+}
+.text2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #167065;
+}
+
+.wave{
+    width: 100vw;
+    height: 18.5vh;
+ 
+    background-image: url("image/wave.PNG");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media (max-width:1025px){
+
+.wave{
+    display: none;
+}
+}
+
+@media (max-width:600px){
+    .mainImg{
+        height: 50vh;
+    }
+}

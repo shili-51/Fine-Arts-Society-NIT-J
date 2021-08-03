@@ -1,0 +1,110 @@
+/* for body after navbar */
+.contain{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+   }
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+  img {
+    border-radius: 15px ;
+  }
+.overtext{
+      margin-top: 15px;
+  }
+
+ /*for card */
+ .card{
+  background-color:#8f7e7e;
+  height: 320px;
+  width:250px;
+  position : absolute;
+  margin:30px;
+  top:0;
+  bottom: 0;
+  left : 0;
+  right : 0;
+  border-radius:20px !important;
+  box-shadow: 0 0 20px 10px rgba(192,192,192,0.7);
+}
+.info{
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+}
+.name{
+  font-size:31px;
+  font-family: Gabriola;
+  color:#f79f08;
+  position:absolute;
+  top:170px;
+  font-weight:600;
+  letter-spacing: 2px;
+}
+.branch{
+  font-size:25px;
+  font-family: Gabriola;
+  color:black;
+  font-weight: bold;
+  position:absolute;
+  top: 220px;
+  font-weight:600;
+  letter-spacing: 2px;
+}
+.divider{
+  background-color:#949594;
+  height:1.5px;
+  width:50px;
+   position:absolute;
+  top:155px;
+  z-index: 1;
+}
+
+.bio{position: absolute;
+  bottom: 0px;
+}
+
+img{
+  height:100%;
+  width:100%;
+   position:absolute;
+  bottom:-5px;
+  left: -5px;
+  
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  z-index: 3;
+  transition:0.3s;
+}
+.card:hover img{
+  transform:scale(0.8,0.6) translateY(-200px);
+   background-size:100% 100%;
+  background-position: 0 -25px;
+  border-radius:30%;
+  z-index: 2;
+}
+.insta{
+  position: absolute;
+  bottom: 20px;
+  right: -20px;
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(image/instagram-icon_32x32.png);
+} 
+
+.present{
+  background-color:#D3D3D3;
+}
+  .card:hover {
+    box-shadow: 16px 16px 8px 0 #00000029;
+      transform:scale(1.1);
+  }

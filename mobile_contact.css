@@ -1,0 +1,153 @@
+body{
+  margin: 0px;
+  padding:0px;
+  align-items: center;
+  justify-content: center;
+  overflow-y:scroll;
+  background-color:#FBFBFB;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items:center;
+  justify-content:center;
+}
+#heading{
+  text-align:left;
+  font-size: 35px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.contact p{
+
+text-align: center;
+font: normal normal normal 30px/57px Gabriela;
+letter-spacing: 0px;
+color: #000000;
+text-transform: uppercase;
+font-weight: bold;
+opacity: 1;
+margin-bottom:0px;
+}
+.item1{
+  background-color: #FBFBFB ;
+  height: auto;
+  box-shadow: 10px 10px 6px #00000029;
+  margin-top: 20px;
+  width:100%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.item2{
+  height: 45vh;
+  width:100%;
+  box-sizing: border-box;
+  padding-top:5vh;
+  padding-bottom:0px;
+  margin-bottom:20px;
+  padding-bottom: 0px;
+
+}
+.address p{
+  margin-bottom:0px;
+  margin-top:0px;
+  font-size: 25px;
+  color: #0C0B0B;
+}
+.links{
+  margin-top:0px;
+  margin-bottom:0px;
+  justify-content: center;
+}
+
+.links ul{
+  display:flex;
+  margin-top:5px;
+
+  padding:0px;
+/* //  margin: 5px; */
+}
+.links ul li{
+  list-style:none;
+  margin-right:10px;
+
+
+}
+.links ul li a{
+/* //  position:relative; */
+  width:10vw;
+  height:10vw;
+  background:#f1f1f1;
+  display:flex;
+  border-radius:50%;
+  margin: 12px 20px 20px 0px;
+  padding: 0.625vw;
+  box-sizing:border-box;
+  text-decoration:none;
+  box-shadow:0 10px 15px rgba(0,0,0,0.3);
+  transition:0.5s;
+  text-align:center;
+  background:linear-gradient(0deg,#ddd,#fff);
+  justify-content: center;
+  align-items: center;
+
+
+}
+.links ul li a:hover{
+  box-shadow:0 2px 5px rgba(0,0,0,0.3);
+}
+.links ul li a .fa{
+  width:100%;
+  height:100%;
+  display:flex;
+  background:#ff0;
+  border-radius:50%;
+  line-height:8.75vw;
+  font-size:4.375vw;
+  color:#262626;
+  transition:.5s;
+  background:linear-gradient(0deg,#fff,#ddd);
+  justify-content: center;
+  align-items: center;
+
+}
+#facebook{
+  margin-left:0px;
+
+}
+ul{
+  padding-left:0px;
+  margin-left:0px;
+
+}
+.links ul li:nth-child(1) a:hover .fa
+{
+  color:#3b5998;
+
+}
+.links ul li:nth-child(2) a:hover .fa
+{
+  color:#bc2a8d;
+}
+.links ul li:nth-child(3) a:hover .fa
+{
+  color:#c71610;
+}
+
+
+iframe{
+  width:100%;
+  box-shadow: 10px 10px 6px #00000029;
+  padding:0px;
+  margin:0px;
+  height: 100%;
+}
+.wave{
+  display: hidden;
+}
+body {
+  margin: 0;
+  font-family: 'Gabriela', serif;
+    background:#FBFBFB;
+}
